@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="银杏" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        为银杏科、银杏属落叶乔木。银杏为落叶大乔木，胸径可达4米，幼树树皮近平滑，浅灰色，大树之皮灰褐色，不规则纵裂，粗糙；有长枝与生长缓慢的距状短枝。在长枝上常2裂，基部宽楔形。球花雌雄异株，单性，生于短枝顶端的鳞片状叶的腋内，呈簇生状。4月开花，10月成熟，种子具长梗，下垂，常为椭圆形、长倒卵形、卵圆形或近圆球形。种皮肉质，被白粉，外种皮肉质，熟时黄色或橙黄色。
+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_pause" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

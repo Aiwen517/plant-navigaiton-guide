@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="榆树" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/p7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        榆科落叶乔木，幼树树皮平滑，灰褐色或浅灰色，大树之皮暗灰色，不规则深纵裂，粗糙；小枝无毛或有毛，无膨大的木栓层及凸起的木栓翅；冬芽近球形或卵圆形。叶椭圆状卵形等，叶面平滑无毛，叶背幼时有短柔毛，后变无毛或部分脉腋有簇生毛，叶柄面有短柔毛。花先叶开放，在生枝的叶腋成簇生状。翅果稀倒卵状圆形。
+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/b14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_pause" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

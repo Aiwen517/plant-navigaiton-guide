@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="383dp"
+            android:layout_height="145dp"
+            android:baselineAligned="false"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/lib" />
+            <LinearLayout
+                android:id="@+id/linear12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="图书馆" />
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有阿穆尔小檗、北京杨、杜仲、枫杨" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/sgl" />
+
+            <LinearLayout
+                android:id="@+id/linar12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="森工楼" />
+                <TextView
+                    android:id="@+id/textViw72"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有矮紫衫、白蜡树、白皮松、暴马丁香、连翘" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/zl" />
+
+            <LinearLayout
+                android:id="@+id/lin12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="主楼" />
+                <TextView
+                    android:id="@+id/textw72"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有矮紫衫、杜仲、连翘、洋白蜡、银杏" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/grass" />
+
+
+            <LinearLayout
+                android:id="@+id/li12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:baselineAligned="false"
+                android:paddingRight="10dp"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="主楼草坪" />
+                <TextView
+                    android:id="@+id/tetw72"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有白皮松、贴梗海棠、杜仲、枫杨、金雀儿" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear15"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/s03" />
+
+            <LinearLayout
+                android:id="@+id/li127"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="林业楼" />
+                <TextView
+                    android:id="@+id/tet72"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有白花曲枝山桃、暴马丁香、碧桃、臭椿、棣棠" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/camp" />
+
+
+            <LinearLayout
+                android:id="@+id/l127"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="操场" />
+                <TextView
+                    android:id="@+id/tet726"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有贴梗海棠、白皮松、旱柳、加杨" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/ej" />
+
+            <LinearLayout
+                android:id="@+id/l17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="二教" />
+                <TextView
+                    android:id="@+id/t726"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有白皮松、臭椿、杜仲、蓝丁香、连翘" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear7"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/swl" />
+
+            <LinearLayout
+                android:id="@+id/l177"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="生物楼" />
+                <TextView
+                    android:id="@+id/t790"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有凤尾兰、合欢、红端木、君迁子" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear8"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/tian" />
+
+            <LinearLayout
+                android:id="@+id/l107"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="田家炳" />
+                <TextView
+                    android:id="@+id/t7909"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有沙地柏、现代月季、榆树" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear9"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/xy" />
+
+            <LinearLayout
+                android:id="@+id/l1097"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:baselineAligned="false"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="#000"
+                    android:textSize="9pt"
+                    android:text="学研大厦" />
+                <TextView
+                    android:id="@+id/t809"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="附近的植物有银杏、圆柏、紫丁香、重瓣榆叶梅" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

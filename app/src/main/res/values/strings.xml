@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">首页</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="weather_live">实时</string>
+    <string name="report_time">发布时间</string>
+    <string name="weather_forecast">预报</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+</resources>

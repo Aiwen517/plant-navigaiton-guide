@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="加杨" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/p8" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        落叶乔木，高30多米。干直，树皮粗厚，深沟裂，下部暗灰色，上部褐灰色，大枝微向上斜伸，树冠卵形；萌枝及苗茎棱角明显，小枝圆柱形，稍有棱角，无毛，稀微被短柔毛。芽大，先端反曲，初为绿色，后变为揭绿色，富粘质。雄花序长7~15厘米，花序轴光滑，不整齐，丝状深裂，花盘淡黄绿色，全叶缘，花丝细长，白色，超出花盘，雌花序有花45~50朵，柱头4裂。
+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/b16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_pause" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
